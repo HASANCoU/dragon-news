@@ -70,7 +70,7 @@ const BreakingNews = () => {
             <button className='btn btn-ghost font-bold text-2xl text-red-500 '>Latest</button>
             <Marquee pauseOnHover="true" speed={70}>
                <p>{
-                news.map(n=><span key={n.id} className='px-10 font-semibold text-xl'>   {n.title}    </span>)
+                news.map(n=><span key={n.id} className='px-10  text-lg'>   {n.title}    </span>)
                 }</p>
 
             </Marquee>
